@@ -18,8 +18,8 @@ Package to quick deploy **TYPO3.Themes** on virtual machine.
 ### Usage
 
 ```
-git clone ....................
-cd ........
+git clone https://github.com/dmh/vagrant-typo3.themes.git
+cd vagrant-typo3.themes
 bower install
 cd typo3
 composer install
