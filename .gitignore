@@ -1,0 +1,9 @@
+.vagrant
+.DS_Store
+TYPO3.CMS
+public/typo3conf/ext/*
+html
+typo3
+!public/typo3
+ENABLE_INSTALL_TOOL
+
