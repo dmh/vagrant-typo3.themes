@@ -1,9 +1,9 @@
-TYPO3 7.2.0     git tag 7.2.0
+TYPO3 7.2.0 + TYPO3.Themes
 
-#Vagrant TYPO3
+#TYPO3.Themes Vagrant package
 
 ###What is it?
-Package to quick deploy blank **TYPO3** on virtual machine.
+Package to quick deploy **TYPO3.Themes** on virtual machine.
 
 **Vagrant** config + **Shell** Provisioner + **Bower** components + **Composer** components
 
@@ -18,12 +18,15 @@ Package to quick deploy blank **TYPO3** on virtual machine.
 ### Usage
 
 ```
-git clone https://github.com/dmh/vagrant-typo3-v7.git
-cd vagrant-typo3-v7
+git clone ....................
+cd ........
 bower install
 cd typo3
 composer install
 cd ..
+cd public/typo3conf
+bower install
+cd -
 vagrant up
 ```
 
@@ -35,7 +38,7 @@ Open SSH session: `vagrant ssh`
 
 ### Connecting
 
-Apache server is available at http://192.168.33.172
+Apache server is available at http://192.168.33.200
 
 Web root: `/var/www/public/`
 
