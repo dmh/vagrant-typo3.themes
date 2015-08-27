@@ -8,6 +8,8 @@ echo "=============================="
 echo -e "Installing TYPO3.Themes DB... \r30% "
 echo "CREATE DATABASE typo3" | mysql -uroot -p1234
 mysql -uroot -p1234 typo3 < /var/www/typo3db/typo3db.sql
+echo "CREATE DATABASE typo374" | mysql -uroot -p1234
+mysql -uroot -p1234 typo374 < /var/www/typo3db/typo374db.sql
 
 # Restart MySQL
 echo -e "Restarting MySQL... \r70% "

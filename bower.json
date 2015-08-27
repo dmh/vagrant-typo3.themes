@@ -1,6 +1,6 @@
 {
-    "name": "Vagrant VM for TYPO3 7.2.0",
+    "name": "Vagrant VM for TYPO3 7.4.0",
     "devDependencies": {
-        "typo3": "https://github.com/TYPO3/TYPO3.CMS.git#7.2.0"
+        "typo3": "https://github.com/TYPO3/TYPO3.CMS.git#7.4.0"
     }
 }
